@@ -14,6 +14,7 @@
 		0342353F1DF2F5C2006E47EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0342353E1DF2F5C2006E47EF /* Images.xcassets */; };
 		034235421DF2F5C2006E47EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034235401DF2F5C2006E47EF /* LaunchScreen.xib */; };
 		0342354E1DF2F5C2006E47EF /* CarSaleAdrianoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342354D1DF2F5C2006E47EF /* CarSaleAdrianoTests.m */; };
+		034235591DF2F9A8006E47EF /* DetalhesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034235581DF2F9A8006E47EF /* DetalhesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		034235471DF2F5C2006E47EF /* CarSaleAdrianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSaleAdrianoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0342354C1DF2F5C2006E47EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0342354D1DF2F5C2006E47EF /* CarSaleAdrianoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarSaleAdrianoTests.m; sourceTree = "<group>"; };
+		034235571DF2F9A8006E47EF /* DetalhesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalhesViewController.h; sourceTree = "<group>"; };
+		034235581DF2F9A8006E47EF /* DetalhesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalhesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				0342353E1DF2F5C2006E47EF /* Images.xcassets */,
 				034235401DF2F5C2006E47EF /* LaunchScreen.xib */,
 				034235311DF2F5C2006E47EF /* Supporting Files */,
+				034235571DF2F9A8006E47EF /* DetalhesViewController.h */,
+				034235581DF2F9A8006E47EF /* DetalhesViewController.m */,
 			);
 			path = CarSaleAdriano;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034235591DF2F9A8006E47EF /* DetalhesViewController.m in Sources */,
 				0342353A1DF2F5C2006E47EF /* ViewController.m in Sources */,
 				034235371DF2F5C2006E47EF /* AppDelegate.m in Sources */,
 				034235341DF2F5C2006E47EF /* main.m in Sources */,
