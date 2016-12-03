@@ -26,12 +26,6 @@
                                             <segue destination="aaS-Qh-ZUI" kind="show" id="r9Z-zt-QNW"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bDU-zK-aRf"/>
-                                    <barButtonItem systemItem="refresh" id="UC2-jl-t8j">
-                                        <connections>
-                                            <action selector="atualizarTabela:" destination="vXZ-lx-hvc" id="fnf-1u-gRu"/>
-                                        </connections>
-                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="KI0-iP-7U5"/>
                                     <barButtonItem width="21" style="plain" systemItem="fixedSpace" id="EXb-df-WdW"/>
                                 </items>
