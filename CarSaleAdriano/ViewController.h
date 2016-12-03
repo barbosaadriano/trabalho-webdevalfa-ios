@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+@property (strong,nonatomic) IBOutlet UITableView *tabela;
+@property (strong, nonatomic) NSArray *dados;
+-(IBAction)atualizarTabela:(id)sender;
 
 
 @end
